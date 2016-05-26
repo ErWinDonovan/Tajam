@@ -1,0 +1,46 @@
+.header-box{
+		position: absolute;
+		width: 100%;
+		left: 0;
+		z-index: 999;
+}
+
+.header {
+	display: table;
+	min-height: 70px;
+}
+
+.logo {
+	display: table-cell;
+	vertical-align: middle;
+	text-transform: lowercase;
+	position: relative;
+	a {
+		font-family: $rob-thin;
+		font-size: 30px;
+		color: $cyan;
+		padding-left: 54px; 
+	}
+	&:before {
+		content: "";
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 15px;
+		height: 50px;
+		width: 44px;
+		background: url(../img/logo.png);
+	}
+}
+
+.nav {
+	display: table-cell;
+	text-align: right;
+	vertical-align: middle;
+	li {
+		display: inline-block;
+		font-family: $rob-black;
+		color: white;
+		text-transform: uppercase;
+	}
+}

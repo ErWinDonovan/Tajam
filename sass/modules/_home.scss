@@ -1,0 +1,16 @@
+.home {
+	height: 800px;
+	position: relative;
+	background: url(../img/bg1.jpg);
+	background-size: 100%;
+}
+
+.purple-overlay:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: $purple;
+}
