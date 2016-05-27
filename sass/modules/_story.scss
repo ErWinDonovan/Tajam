@@ -1,0 +1,22 @@
+.story {
+	.row {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	@media (max-width: 768px) {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		}
+	}
+}
+
+.large-logo {
+	text-align: center;
+}
+
+.our-story {
+	h1 {
+		text-transform: uppercase;
+		font-family: $play-bold;
+		font-size: 22px;
+	}
+}

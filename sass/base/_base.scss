@@ -1,0 +1,42 @@
+div {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 32px;
+	line-height: 48px;
+	font-family: $play-black;
+	margin-bottom: 20px;
+	color: $gray;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 16px;
+	font-family: $rob-black;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+	font-family: $rob-light;
+	margin-bottom: 20px;
+	color: $gray;
+}
+
+a {
+	text-decoration: none;
+	color: $white;
+	transition: .2s;
+	&:hover {
+		color: $orange;
+	}
+}

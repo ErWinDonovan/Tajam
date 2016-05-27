@@ -46,9 +46,35 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'playfair_displayblack';
+    src: url('../fonts/playfairdisplay/playfairdisplay-black.woff2') format('woff2'),
+         url('../fonts/playfairdisplay/playfairdisplay-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'playfair_displaybold';
+    src: url('../fonts/playfairdisplay/playfairdisplay-bold.woff2') format('woff2'),
+         url('../fonts/playfairdisplay/playfairdisplay-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('../fonts/playfairdisplay/playfairdisplay-regular.woff2') format('woff2'),
+         url('../fonts/playfairdisplay/playfairdisplay-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @import url(https://fonts.googleapis.com/css?family=Hammersmith+One);
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+
+$play-regular: 'playfair_displayregular', Arial, sans-serif;
+$play-bold: 'playfair_displaybold', Arial, sans-serif;
+$play-black: 'playfair_displayblack', Arial, sans-serif;
 
 $rob-regular: 'robotoregular', Arial, sans-serif;
 $rob-light: 'robotolight', Arial, sans-serif;
@@ -56,11 +82,13 @@ $rob-black: 'robotoblack', Arial, sans-serif;
 $rob-thin: 'robotothin', Arial, sans-serif;
 
 $hammer: 'Hammersmith One', Arial, sans-serif;
-$plfair: 'Playfair Display', Georgia, serif;
 
 //////////
 //COLORS//
 //////////
 
 $cyan: #00e0d0;
-$purple: rgba(11,6,49,.85);
+$white: #FFF; // TEXT WHITE
+$gray: #413d4b; //TEXT GRAY
+$purple: rgba(11,6,49,.85); //BACKGROUND
+$orange: #FF7400; //HOVER

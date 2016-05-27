@@ -1,0 +1,15 @@
+.button {
+	a {
+	border: 1px solid $cyan;
+	color: $cyan;
+	display: inline-block;
+	font-family: $hammer;
+	margin: auto;
+	padding: 10px;
+	text-transform: uppercase;
+		&:hover {
+			color: $orange;
+			border-color: $orange;
+		}
+	}
+}
