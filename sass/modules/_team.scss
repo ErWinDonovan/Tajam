@@ -1,0 +1,62 @@
+.team {
+	text-align: center;
+	background-image: url(../img/bg3.jpg);
+	background-size: cover;
+	background-position: center;
+	.row {
+		&:first-child {
+			margin-top: 75px;
+		}
+		&:nth-child(2) {
+		margin-bottom: 60px;
+		}
+		&:last-child {
+			p {
+				color: $lightgray;
+				}
+			margin-bottom: 75px;
+		}
+	}
+}
+
+.team-head {
+	h2 {
+		color: $white;
+	}
+	p {
+		font-family: $play-regular; 
+		margin-bottom: 60px;
+		color: $white;
+		&:after {
+			content: "";
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;
+			width: 50px;
+			border: 1px solid $lightgray;
+		}
+	}
+}
+
+.team-content {
+	margin-bottom: 20px;
+}
+
+.photo {
+	min-height: 250px;
+	background-color: #f4f4f6;
+}
+
+.name {
+	border: 1px solid $lightgray;
+	h4 {
+		margin-top: 20px;
+		margin-bottom: 0;
+		color: $white;
+	}
+	p {
+		text-transform: uppercase;
+		color: $lightgray;
+	}
+}
