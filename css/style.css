@@ -115,16 +115,26 @@ h1 {
 
 h2 {
   font-size: 22px;
+  line-height: 33px;
+  color: #413d4b;
+  font-family: "playfair_displaybold", Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 h3 {
   font-size: 16px;
+  line-height: 24px;
   font-family: "robotoblack", Arial, sans-serif;
   text-transform: uppercase;
 }
 
 h4 {
   font-size: 14px;
+  line-height: 21px;
+  font-family: "robotoblack", Arial, sans-serif;
+  text-transform: uppercase;
+  color: #413d4b;
+  margin-bottom: 20px;
 }
 
 p {
@@ -132,7 +142,7 @@ p {
   line-height: 21px;
   font-family: "robotolight", Arial, sans-serif;
   margin-bottom: 20px;
-  color: #413d4b;
+  color: #78777b;
 }
 
 a {
@@ -219,7 +229,6 @@ a:hover {
   display: block;
   width: 50px;
   border: 1px solid #00e0d0;
-  margin-bottom: 20px;
   margin-top: 20px;
 }
 .home p {
@@ -234,7 +243,7 @@ a:hover {
   margin-bottom: 200px;
   width: 60%;
 }
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   .home-content {
     margin-left: auto;
     margin-right: auto;
@@ -274,7 +283,7 @@ a:hover {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .story .row {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -300,7 +309,7 @@ a:hover {
   margin-top: 200px;
   margin-bottom: 200px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .watch .row {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -323,6 +332,75 @@ a:hover {
 }
 .play:hover {
   background: url(../img/playhover.png);
+}
+
+.expertise {
+  text-align: center;
+}
+.expertise .row:first-child {
+  margin-top: 75px;
+}
+.expertise .row:last-child {
+  margin-bottom: 25px;
+}
+
+.expert-head p {
+  font-family: "playfair_displayregular", Arial, sans-serif;
+  margin-bottom: 60px;
+}
+.expert-head p:after {
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 50px;
+  border: 1px solid #ccc;
+}
+
+.expert-content p {
+  margin-bottom: 40px;
+}
+.expert-content:nth-child(4) {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 992px) {
+  .expert-content:nth-child(4) {
+    content: "";
+    display: table;
+    clear: none;
+  }
+}
+
+.expert-icon {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  background-image: url(../img/expertise.png);
+}
+
+.pen {
+  background-position: 0 -50px;
+}
+
+.mobile {
+  background-position: 0 -100px;
+}
+
+.stats {
+  background-position: 0 -152px;
+}
+
+.game {
+  background-position: 0 -204px;
+}
+
+.heart {
+  background-position: 0 -254px;
 }
 
 .button a {

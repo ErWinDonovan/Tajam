@@ -7,21 +7,31 @@ h1 {
 	line-height: 48px;
 	font-family: $play-black;
 	margin-bottom: 20px;
-	color: $gray;
+	color: $purple;
 }
 
 h2 {
 	font-size: 22px;
+	line-height: 33px;
+	color: $purple;
+	font-family: $play-bold;
+	text-transform: uppercase;
 }
 
 h3 {
 	font-size: 16px;
+	line-height: 24px;
 	font-family: $rob-black;
 	text-transform: uppercase;
 }
 
 h4 {
 	font-size: 14px;
+	line-height: 21px;
+	font-family: $rob-black;
+	text-transform: uppercase;
+	color: $purple;
+	margin-bottom: 20px;
 }
 
 p {
