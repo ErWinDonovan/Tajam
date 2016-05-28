@@ -1,15 +1,45 @@
+/*********RESET**********/
 @import "compass/reset";
+
+/*********FONTS**********/
 @import "settings";
 
+/*********BASE***********/
 @import "base/base";
 
+/*********GRID***********/
 @import "layout/grid";
 
+/********MODULES*********/
+/************************/
+
+/*********HEADER*********/
 @import "modules/header";
+
+/*********HOME***********/
 @import "modules/home";
+
+/*********STORY**********/
 @import "modules/story";
+
+/**********WATCH*********/
 @import "modules/watch";
+
+/*******EXPERTISE********/
 @import "modules/expertise";
+
+/**********TEAM**********/
 @import "modules/team";
 
+/**********WORKS*********/
+@import "modules/works";
+
+/*********PEOPLE*********/
+@import "modules/people";
+
+/*********PEOPLE*********/
+@import "modules/contact";
+
+
+/*********BUTTON*********/
 @import "modules/button";

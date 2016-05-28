@@ -1,0 +1,67 @@
+.people {
+	text-align: center;
+	background-image: url(../img/bg4.jpg);
+	background-size: cover;
+	background-position: center;
+	.row {
+		&:first-child {
+			margin-top: 75px;
+			color: $white;
+			p {
+				color: $lightgray;
+				margin-bottom: 50px;
+			}
+		}
+		&:last-child {
+			margin-bottom: 75px;
+		}
+	}
+}
+
+.quote {
+	font-size: 100px;
+	line-height: 70px;
+	font-family: $play-regular;
+	color: $white;
+}
+
+
+.people-icon {
+	display: inline-block;
+	vertical-align: middle;
+	width: 45px;
+	height: 45px;
+	margin: 0 5px; 
+	transition: all 0.2s;
+	&:hover {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+.people-acative {
+	width: 60px;
+	height: 60px;
+}
+
+.switch-people {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 15px; 
+	background-image: url(../img/pict/nav.png);
+	&:hover {
+		background-position: 0 21px;
+	}
+	a {
+		display: block;
+		width: 11px;
+		height: 21px;
+	}
+}
+
+.switch-right {
+	background-position: 11px 0;
+	&:hover {
+		background-position: 11px 21px;
+	}
+}

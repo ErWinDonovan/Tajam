@@ -1,3 +1,4 @@
+/*********RESET**********/
 @import url(https://fonts.googleapis.com/css?family=Hammersmith+One);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -55,6 +56,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/*********FONTS**********/
 @font-face {
   font-family: 'robotoregular';
   src: url("../fonts/roboto_regular/Roboto-Regular-webfont.eot");
@@ -101,8 +103,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: normal;
   font-style: normal;
 }
-div {
+/*********BASE***********/
+div, input, textarea {
   box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 h1 {
@@ -154,21 +162,7 @@ a:hover {
   color: #FF7400;
 }
 
-/*!
- * Bootstrap v3.3.5 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=1f88d5277c9cf919d58d1ffc94f9cd06)
- * Config saved to config.json and https://gist.github.com/1f88d5277c9cf919d58d1ffc94f9cd06
- */
-/*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/*********GRID***********/
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -1116,6 +1110,9 @@ a:hover {
   position: fixed;
 }
 
+/********MODULES*********/
+/************************/
+/*********HEADER*********/
 .header-box {
   position: absolute;
   width: 100%;
@@ -1146,6 +1143,8 @@ a:hover {
 .logo a img {
   vertical-align: middle;
   padding-right: 10px;
+  width: 44px;
+  height: 50px;
 }
 .logo a:hover {
   color: #FF7400;
@@ -1175,6 +1174,7 @@ a:hover {
   font-size: 13px;
 }
 
+/*********HOME***********/
 .home {
   position: relative;
   background: url(../img/bg1.jpg);
@@ -1241,6 +1241,7 @@ a:hover {
   background: #00e0d0;
 }
 
+/*********STORY**********/
 .story .row {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -1255,6 +1256,10 @@ a:hover {
 .large-logo {
   text-align: center;
 }
+.large-logo img {
+  width: 235px;
+  height: 230px;
+}
 
 .our-story h1 {
   text-transform: uppercase;
@@ -1262,6 +1267,7 @@ a:hover {
   font-size: 22px;
 }
 
+/**********WATCH*********/
 .watch {
   background: url(../img/bg2.jpg);
   background-size: cover;
@@ -1296,6 +1302,7 @@ a:hover {
   background: url(../img/playhover.png);
 }
 
+/*******EXPERTISE********/
 .expertise {
   text-align: center;
 }
@@ -1365,6 +1372,7 @@ a:hover {
   background-position: 0 -254px;
 }
 
+/**********TEAM**********/
 .team {
   text-align: center;
   background-image: url(../img/bg3.jpg);
@@ -1424,6 +1432,137 @@ a:hover {
   color: #b3b0c0;
 }
 
+/**********WORKS*********/
+.works {
+  text-align: center;
+}
+.works .row:first-child {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+.works .row:nth-child(2) {
+  margin-bottom: 75px;
+}
+.works .row:last-child {
+  margin-bottom: 50px;
+}
+
+.dribbble {
+  line-height: 33px;
+  margin-bottom: 0px;
+}
+.dribbble a {
+  color: #78777b;
+  padding: 5px;
+}
+.dribbble a:hover {
+  color: #FF7400;
+}
+.dribbble a:after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 15px;
+  background: url(../img/right.png);
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.works-content {
+  min-height: 200px;
+  background: #ccc;
+}
+.works-content:nth-child(4n+8), .works-content:nth-child(-4n+5) {
+  background-color: #b6b6b6;
+}
+.works-content:nth-child(-5n+9) {
+  background-color: #8a8a8a;
+}
+.works-content:nth-child(7n+3) {
+  background-color: #a1a1a1;
+}
+
+/*********PEOPLE*********/
+.people {
+  text-align: center;
+  background-image: url(../img/bg4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.people .row:first-child {
+  margin-top: 75px;
+  color: #FFF;
+}
+.people .row:first-child p {
+  color: #b3b0c0;
+  margin-bottom: 50px;
+}
+.people .row:last-child {
+  margin-bottom: 75px;
+}
+
+.quote {
+  font-size: 100px;
+  line-height: 70px;
+  font-family: "playfair_displayregular", Arial, sans-serif;
+  color: #FFF;
+}
+
+.people-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45px;
+  height: 45px;
+  margin: 0 5px;
+  transition: all 0.2s;
+}
+.people-icon:hover {
+  width: 60px;
+  height: 60px;
+}
+
+.people-acative {
+  width: 60px;
+  height: 60px;
+}
+
+.switch-people {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 15px;
+  background-image: url(../img/pict/nav.png);
+}
+.switch-people:hover {
+  background-position: 0 21px;
+}
+.switch-people a {
+  display: block;
+  width: 11px;
+  height: 21px;
+}
+
+.switch-right {
+  background-position: 11px 0;
+}
+.switch-right:hover {
+  background-position: 11px 21px;
+}
+
+/*********PEOPLE*********/
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  border: 1px solid #e5e5e5;
+  width: 100%;
+  color: #b9b7bd;
+  padding: 15px;
+  max-width: 100%;
+  font-family: "robotolight", Arial, sans-serif;
+}
+
+/*********BUTTON*********/
 .button a {
   border: 1px solid #00e0d0;
   color: #00e0d0;
@@ -1434,6 +1573,24 @@ a:hover {
   text-transform: uppercase;
 }
 .button a:hover {
+  color: #FF7400;
+  border-color: #FF7400;
+}
+
+button {
+  border: 1px solid #00e0d0;
+  color: #00e0d0;
+  display: inline-block;
+  font-family: "Hammersmith One", Arial, sans-serif;
+  margin: auto;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: none;
+  font-size: 18px;
+  transition: color .2s;
+}
+button:hover {
   color: #FF7400;
   border-color: #FF7400;
 }

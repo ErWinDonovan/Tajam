@@ -13,3 +13,21 @@
 		}
 	}
 }
+
+button {
+	border: 1px solid $cyan;
+	color: $cyan;
+	display: inline-block;
+	font-family: $hammer;
+	margin: auto;
+	padding: 10px 30px;
+	text-transform: uppercase;	
+	cursor: pointer;
+	background: none;
+	font-size: 18px;
+	transition: color .2s;
+			&:hover {
+			color: $orange;
+			border-color: $orange;
+		}
+}
