@@ -116,7 +116,7 @@ img {
 h1 {
   font-size: 32px;
   line-height: 48px;
-  font-family: "playfair_displayblack", Arial, sans-serif;
+  font-family: "playfair_displayblack", Georgia, serif;
   margin-bottom: 20px;
   color: #413d4b;
 }
@@ -125,7 +125,7 @@ h2 {
   font-size: 22px;
   line-height: 33px;
   color: #413d4b;
-  font-family: "playfair_displaybold", Arial, sans-serif;
+  font-family: "playfair_displaybold", Georgia, serif;
   text-transform: uppercase;
 }
 
@@ -155,7 +155,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #FFF;
+  color: #e4e3e9;
   transition: .2s;
 }
 a:hover {
@@ -1183,7 +1183,7 @@ a:hover {
   text-align: center;
 }
 .home h1 {
-  color: #FFF;
+  color: #e4e3e9;
 }
 .home h1:after {
   content: "";
@@ -1194,7 +1194,7 @@ a:hover {
   margin-top: 20px;
 }
 .home p {
-  color: #FFF;
+  color: #e4e3e9;
   margin-bottom: 40px;
 }
 
@@ -1226,7 +1226,7 @@ a:hover {
   width: 10px;
   height: 10px;
   display: inline-block;
-  border: 1px solid #FFF;
+  border: 1px solid #e4e3e9;
   border-radius: 50%;
   cursor: pointer;
   transition: all 0.2s;
@@ -1263,7 +1263,7 @@ a:hover {
 
 .our-story h1 {
   text-transform: uppercase;
-  font-family: "playfair_displaybold", Arial, sans-serif;
+  font-family: "playfair_displaybold", Georgia, serif;
   font-size: 22px;
 }
 
@@ -1284,7 +1284,7 @@ a:hover {
   }
 }
 .watch h3 {
-  color: #FFF;
+  color: #e4e3e9;
   text-align: center;
 }
 
@@ -1314,7 +1314,7 @@ a:hover {
 }
 
 .expert-head p {
-  font-family: "playfair_displayregular", Arial, sans-serif;
+  font-family: "playfair_displayregular", Georgia, serif;
   margin-bottom: 60px;
 }
 .expert-head p:after {
@@ -1393,12 +1393,12 @@ a:hover {
 }
 
 .team-head h2 {
-  color: #FFF;
+  color: #e4e3e9;
 }
 .team-head p {
-  font-family: "playfair_displayregular", Arial, sans-serif;
+  font-family: "playfair_displayregular", Georgia, serif;
   margin-bottom: 60px;
-  color: #FFF;
+  color: #e4e3e9;
 }
 .team-head p:after {
   content: "";
@@ -1425,7 +1425,7 @@ a:hover {
 .name h4 {
   margin-top: 20px;
   margin-bottom: 0;
-  color: #FFF;
+  color: #e4e3e9;
 }
 .name p {
   text-transform: uppercase;
@@ -1491,7 +1491,7 @@ a:hover {
 }
 .people .row:first-child {
   margin-top: 75px;
-  color: #FFF;
+  color: #e4e3e9;
 }
 .people .row:first-child p {
   color: #b3b0c0;
@@ -1504,8 +1504,12 @@ a:hover {
 .quote {
   font-size: 100px;
   line-height: 70px;
-  font-family: "playfair_displayregular", Arial, sans-serif;
-  color: #FFF;
+  font-family: "playfair_displayregular", Georgia, serif;
+  color: #e4e3e9;
+}
+
+.quote-text {
+  font-family: "playfair_displayregular", Georgia, serif;
 }
 
 .people-icon {
@@ -1548,18 +1552,165 @@ a:hover {
   background-position: 11px 21px;
 }
 
-/*********PEOPLE*********/
+/*********CONTACT********/
+.contact .row {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
 .contact h2 {
   margin-bottom: 20px;
 }
 
-input, textarea {
-  border: 1px solid #e5e5e5;
-  width: 100%;
-  color: #b9b7bd;
-  padding: 15px;
-  max-width: 100%;
-  font-family: "robotolight", Arial, sans-serif;
+.our-clients {
+  text-align: center;
+}
+.our-clients h2 {
+  margin-bottom: 35px;
+  text-align: left;
+}
+@media (max-width: 992px) {
+  .our-clients h2 {
+    margin-top: 75px;
+  }
+}
+.our-clients img {
+  width: auto;
+  margin-bottom: 50px;
+}
+
+/*********FOOTER********/
+.footer {
+  background-image: url(../img/bg5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.footer h4 {
+  color: #e4e3e9;
+}
+.footer p {
+  color: #e4e3e9;
+}
+.footer .row:first-child {
+  margin-top: 75px;
+}
+.footer .row:last-child {
+  margin-bottom: 75px;
+}
+.footer .logo a {
+  padding-left: 0;
+}
+
+.footer-head {
+  line-height: 50px;
+  vertical-align: middle;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.adress {
+  padding-left: 30px;
+  position: relative;
+}
+.adress:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 17px;
+  height: 19px;
+  top: 7px;
+  left: 0;
+  background: url(../img/adressicon.png) no-repeat;
+}
+
+.telephone {
+  padding-left: 30px;
+  position: relative;
+}
+.telephone:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 17px;
+  height: 19px;
+  top: 2px;
+  left: 0;
+  background: url(../img/adressicon.png) no-repeat 0 -19px;
+}
+
+.subscribe input {
+  background: none;
+  padding-right: 5px;
+}
+.subscribe button {
+  position: relative;
+  height: 50px;
+  border: none;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  background: #e5e5e5 url(../img/sbcarw.png) no-repeat center;
+  transition: background-color .2s;
+}
+.subscribe button:hover {
+  background-color: #FF7400;
+}
+
+.social-box {
+  margin-bottom: 45px;
+  clear: both;
+}
+
+.social {
+  display: inline-block;
+  padding-right: 7px;
+}
+.social a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-image: url(../img/social.png);
+}
+.social a:hover {
+  background-image: url(../img/socialhover.png);
+}
+
+.twitter a {
+  background-position: -35px 0;
+}
+
+.drbl a {
+  background-position: -70px 0;
+}
+
+.instagram a {
+  background-position: -105px 0;
+}
+
+.gplus a {
+  background-position: -140px 0;
+}
+
+.youtube a {
+  background-position: -175px 0;
+}
+
+.bottom-menu ul {
+  margin-bottom: 20px;
+}
+.bottom-menu ul li {
+  color: #e4e3e9;
+  font-family: "robotoregular", Arial, sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-right: 20px;
+}
+.bottom-menu p {
+  float: right;
+}
+@media (max-width: 992px) {
+  .bottom-menu p {
+    float: none;
+  }
 }
 
 /*********BUTTON*********/
@@ -1593,4 +1744,14 @@ button {
 button:hover {
   color: #FF7400;
   border-color: #FF7400;
+}
+
+/*********FORM***********/
+input, textarea {
+  border: 1px solid #e5e5e5;
+  width: 100%;
+  color: #b9b7bd;
+  padding: 15px;
+  max-width: 100%;
+  font-family: "robotolight", Arial, sans-serif;
 }

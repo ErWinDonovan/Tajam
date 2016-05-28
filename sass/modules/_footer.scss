@@ -1,0 +1,154 @@
+.footer {
+	background-image: url(../img/bg5.jpg);
+	background-size: cover;
+	background-position: center;
+	h4 {
+		color: $white;
+	}
+	p {
+		color: $white;
+	}
+	.row {
+		&:first-child {
+			margin-top: 75px;
+		}
+		&:last-child {
+			margin-bottom: 75px;
+		}
+	}
+	.logo {
+		a {
+		padding-left: 0;
+		}
+	}
+}
+
+.footer-head {
+	line-height: 50px;
+	vertical-align: middle;	
+	display: block;
+	margin-bottom: 15px;
+}
+
+.adress {
+	padding-left: 30px;
+	position: relative;
+	&:after {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 17px;
+		height: 19px;
+		top: 7px;
+		left: 0;
+		background: url(../img/adressicon.png) no-repeat;
+	}
+}
+
+.telephone {
+	padding-left: 30px;
+	position: relative;
+	&:after {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 17px;
+		height: 19px;
+		top: 2px;
+		left: 0;
+		background: url(../img/adressicon.png) no-repeat 0 -19px;
+		}
+}
+
+.subscribe {
+	input {
+		background: none;
+		padding-right: 5px;
+	}
+	button {
+		position: relative;
+		height: 50px;
+		border: none;
+		margin-bottom: 20px;
+		margin-left: 10px;	
+		background: #e5e5e5 url(../img/sbcarw.png) no-repeat center;
+		transition: background-color .2s;
+		&:hover {
+			background-color: $orange;
+		}
+	}
+}
+
+.social-box {
+	margin-bottom: 45px;
+	clear: both;
+}
+
+///////////
+///ICONS///
+///////////
+
+
+.social {
+	display: inline-block;
+	padding-right: 7px;
+		a {
+			display: block;
+			width: 35px;
+			height: 35px;
+			background-image: url(../img/social.png);
+			&:hover {
+				background-image: url(../img/socialhover.png);
+			}
+		}
+}
+
+.twitter {
+	a {
+	background-position: -35px 0;
+	}
+}
+
+.drbl {
+	a {
+	background-position: -70px 0;
+	}
+}
+
+.instagram {
+	a {
+	background-position: -105px 0;
+	}
+}
+
+.gplus {
+	a {
+	background-position: -140px 0;
+	}
+}
+
+.youtube {
+	a {
+	background-position: -175px 0;
+	}
+}
+
+.bottom-menu {
+	ul{
+	margin-bottom: 20px;
+		li {
+			color: $white;
+			font-family: $rob-regular;
+			display: inline-block;
+			text-transform: uppercase;
+			font-size: 14px;
+			padding-right: 20px;
+		}
+	}
+	p {
+		float: right;
+		@media (max-width: 992px) {
+			float: none;
+		}
+	}
+}

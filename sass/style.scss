@@ -2,7 +2,7 @@
 @import "compass/reset";
 
 /*********FONTS**********/
-@import "settings";
+@import "utilities/settings";
 
 /*********BASE***********/
 @import "base/base";
@@ -37,9 +37,15 @@
 /*********PEOPLE*********/
 @import "modules/people";
 
-/*********PEOPLE*********/
+/*********CONTACT********/
 @import "modules/contact";
+
+/*********FOOTER********/
+@import "modules/footer";
 
 
 /*********BUTTON*********/
 @import "modules/button";
+
+/*********FORM***********/
+@import "modules/form";
